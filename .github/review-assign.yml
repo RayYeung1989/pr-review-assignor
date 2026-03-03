@@ -1,0 +1,17 @@
+# Review Assignor Configuration
+# Format: path-prefix: reviewer1,reviewer2
+
+# Frontend files
+src/components: john,alice
+src/pages: john
+*.tsx: alice
+
+# Backend files
+server/: bob
+api/: bob
+*.go: charlie
+
+# Config files
+.github/: team-lead
+*.yml: devops-team
+*.json: devops-team
